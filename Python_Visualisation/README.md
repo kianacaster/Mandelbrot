@@ -1,9 +1,12 @@
 # About
 
-Implementation of the escape time algorithm with pygame (and numpy to improve
-processing time) Runs very slowly (python) - keep max iterations low
+Implementation of the escape time algorithm with pygame.
 
-# Algorithm (EscapeTimeAlgo.pseudo)
+Runs very slowly (...python) - keep max iterations low, around 60 is about the highest it should be pushed. 
+
+
+
+# Algorithm Pseudocode (EscapeTimeAlgo.pseudo)
 <code>
     for each pixel (Px, Py) on the screen do
         x0 := scaled x coordinate of pixel (scaled to lie in the Mandelbrot X scale (-2.00, 0.47))
