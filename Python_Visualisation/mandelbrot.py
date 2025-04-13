@@ -26,9 +26,8 @@ def get_color(iteration, max_iteration):
     if iteration == max_iteration:
         return (0, 0, 0)  # Black for points inside the Mandelbrot set
     else:
-        # Map iteration to a gradient (e.g., blue to white)
         color_value = int(255 * iteration / max_iteration)
-        return (color_value, 255 - color_value, max_iteration - iteration)  # Shades of blue
+        return (color_value, 255 - color_value, max_iteration - iteration) 
 
 
 
